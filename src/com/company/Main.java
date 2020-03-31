@@ -8,5 +8,7 @@ public class Main {
         MyClass myObject=new MyClass();
         System.out.println(myObject.addNumber(3,5));
         System.out.println("Hello Manula Uluwatta");
+        System.out.println("hello");
+        System.out.println("New one");
     }
 }
