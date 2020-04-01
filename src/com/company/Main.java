@@ -10,5 +10,8 @@ public class Main {
         System.out.println("Hello Manula Uluwatta");
         System.out.println("hello");
         System.out.println("New one");
+
+        boolean b=myObject.findPrimeNumber(3);
+        System.out.println(b);
     }
 }
