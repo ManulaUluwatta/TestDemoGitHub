@@ -2,16 +2,22 @@ package com.company;
 
 import scr.MyClass;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
         MyClass myObject=new MyClass();
-        System.out.println(myObject.addNumber(3,5));
-        System.out.println("Hello Manula Uluwatta");
-        System.out.println("hello");
-        System.out.println("New one");
+        Scanner input=new Scanner(System.in);
+        int myArray[]=new int[5];
+        for(int i=0;i<5;i++){
+            System.out.print("Input number "+(i+1)+" : ");
+            myArray[i]= Integer.parseInt(input.next());
+        }
 
-        boolean b=myObject.findPrimeNumber(3);
-        System.out.println(b);
+        myObject.calculateMaxValue(myArray);
+
+
+
     }
 }
